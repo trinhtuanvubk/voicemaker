@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #efefef;
+  }
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .voice-ctn {
+    background:white;
+    border-radius:1px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.14);
+  }
+  .voice-ctn .header {
+    border-bottom: 1px solid lightgrey;
+    padding: 0.5rem;
+  }
+  #inputOutputArea {
+    width: 900px;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 960px) {
+    .voice-ctn button { padding:0.4rem; font-size:0.8rem; }
+    #inputOutputArea {
+      flex-direction: column;
+      width: unset;
+      margin: unset;
+    }
+  }
+    
+  .blink {
+    animation: blinker 1s step-start infinite;
+  }
+  @keyframes blinker {
+    50% {
+      color: orange;
+    }
+  }
+
+
+#effectsList {
+    width: 95%;
+    max-width: 600px;
+    margin:0 auto;
+  }
+  .effect {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.14);
+    background:white;
+    margin-top:1rem;
+  }
+  .effect .header {
+    display:flex;
+    border-bottom: 1px solid lightgrey;
+    padding:0.8rem;
+    position:relative;
+  }
+  .effect .header .title {
+    flex-grow:1;
+    font-weight:bold;
+    line-height: 1.2rem;
+  }
+  .effect .header .handle {
+    cursor: move;
+  }
+  .effect .header .icon {
+    padding: 0 5px;
+    border: 1px solid black;
+    opacity:0.4;
+    border-radius:2px;
+  }
+  .effect .header .icon:hover {
+    background:#e4e4e4;
+  }
+  .effect .description {
+    border-bottom: 1px solid lightgrey;
+    padding:0.8rem;
+  }
+  .effect .params {
+    padding:0.8rem;
+  }
+  .effect .param {
+    display:flex;
+  }
+  .effect .param .input-wrapper {
+    flex-grow:1;
+    display: flex;
+  }
+  .effect .param .name {
+    padding: 0.2rem;
+  }
+  .effect .param input, #effectsList .effect .param select {
+    width:100%;
+  }
+  .effect .param:not(:first-child) {
+    margin-top: 0.4rem;
+  }
+
+
+  .effect .title-menu {
+    padding: 5px 0px;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 4px 12px 1px rgba(0,0,0,.14);
+    border-radius: 3px;
+    z-index: 10;
+    right: 0;
+    top: 0;
+    display: none;
+  }
+  .effect .title-menu.visible {
+    display: block;
+  }
+  .effect .title-menu .menu-item {
+    padding: 8px 16px;
+    line-height: 24px;
+    cursor: pointer;
+  }
+  .effect .title-menu .menu-item:hover {
+    background: #f2f4f6;
+  }
+
+  .range-param-display:hover {
+    background: #f3f3f3;
+  }
