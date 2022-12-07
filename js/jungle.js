@@ -221,3 +221,10 @@ Jungle.prototype.setPitchOffset = function(mult) {
         this.setDelay(delayTime*Math.abs(mult));
     previousPitch = mult;
 }
+
+
+module.exports = {
+    createDelayTimeBuffer,
+    createDelayTimeBuffer,
+    Jungle
+}

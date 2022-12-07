@@ -38,3 +38,6 @@ async function cymbalConvolverTransformer(audioBuffer, opts) {
   
   }
   
+module.exports = {
+    cymbalConvolverTransformer
+}

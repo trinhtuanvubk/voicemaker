@@ -22,4 +22,7 @@ async function bitcrusherTransformer(audioBuffer, opts) {
     return await ctx.startRendering();
   
   }
-  
+
+module.exports = {
+    bitcrusherTransformer
+}

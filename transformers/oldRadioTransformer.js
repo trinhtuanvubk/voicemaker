@@ -90,3 +90,6 @@ async function oldRadioTransformer(audioBuffer, opts) {
   
   }
   
+module.exports = {
+    oldRadioTransformer
+}

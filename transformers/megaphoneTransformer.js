@@ -49,3 +49,6 @@ async function megaphoneTransformer(audioBuffer, opts) {
   
   }
   
+module.exports = {
+    megaphoneTransformer
+}

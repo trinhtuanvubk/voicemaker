@@ -469,3 +469,6 @@ function vocoder(ctx, cb, mb, opts={}) {
     };
   }
   
+module.exports = {
+    vocoder
+}

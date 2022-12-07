@@ -20,4 +20,8 @@ async function synthTransformer(audioBuffer, opts) {
     return await ctx.startRendering();
   
   }
+
+module.exports = {
+    synthTransformer
+}
   

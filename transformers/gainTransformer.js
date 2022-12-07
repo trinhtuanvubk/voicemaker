@@ -19,3 +19,6 @@ async function gainTransformer(audioBuffer, opts) {
   
   }
   
+module.exports = {
+    gainTransformer
+}

@@ -111,3 +111,6 @@ async function tinyRobotTransformer(audioBuffer, opts) {
   
   }
   
+module.exports = {
+tinyRobotTransformer
+}

@@ -106,3 +106,6 @@ async function veryDistortedRadioTransformer(audioBuffer, opts) {
   
   }
   
+module.exports = {
+    veryDistortedRadioTransformer
+}

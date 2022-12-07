@@ -55,4 +55,8 @@ async function autowahTransformer(audioBuffer, opts) {
     return outputAudioBuffer;
   
   }
+
+module.exports = {
+    autowahTransformer
+}
   

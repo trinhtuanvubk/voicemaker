@@ -111,3 +111,6 @@ async function satanTransformer(audioBuffer, opts) {
   
   }
   
+module.exports = {
+    satanTransformer
+}

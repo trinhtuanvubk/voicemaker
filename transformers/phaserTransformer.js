@@ -29,3 +29,6 @@ async function phaserTransformer(audioBuffer, opts) {
   
   }
   
+module.exports = {
+    phaserTransformer
+}

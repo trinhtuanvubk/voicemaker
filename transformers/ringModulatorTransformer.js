@@ -139,3 +139,6 @@ async function ringModulatorTransformer(audioBuffer, opts) {
     return this.node.connect(destination);
   };
   
+module.exports = {
+    ringModulatorTransformer
+}

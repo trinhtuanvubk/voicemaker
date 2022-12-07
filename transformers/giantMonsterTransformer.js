@@ -106,3 +106,6 @@ async function giantMonsterTransformer(audioBuffer, opts) {
   
   }
   
+module.exports = {
+    giantMonsterTransformer
+}

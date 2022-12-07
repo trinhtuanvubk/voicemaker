@@ -69,3 +69,7 @@ async function roboticTransformer(audioBuffer, opts) {
   
   }
   
+
+module.exports = {
+    roboticTransformer
+}

@@ -23,3 +23,6 @@ async function chorusTransformer(audioBuffer, opts) {
   
   }
   
+module.exports = {
+    chorusTransformer
+}

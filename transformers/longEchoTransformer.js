@@ -37,4 +37,6 @@ async function longEchoTransformer(audioBuffer, opts) {
     return outputAudioBuffer;
   
   }
-  
+module.exports = {
+    longEchoTransformer
+}

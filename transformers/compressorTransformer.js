@@ -33,3 +33,6 @@ async function compressorTransformer(audioBuffer, opts) {
   
   }
   
+module.exports = {
+    compressorTransformer
+}

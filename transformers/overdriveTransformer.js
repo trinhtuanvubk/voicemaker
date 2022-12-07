@@ -184,3 +184,6 @@ async function overdriveTransformer(audioBuffer, opts) {
   
   });
   
+module.exports = {
+    overdriveTransformer
+}

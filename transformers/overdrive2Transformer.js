@@ -24,4 +24,6 @@ async function overdrive2Transformer(audioBuffer, opts) {
     return await ctx.startRendering();
   
   }
-  
+module.exports = {
+    overdrive2Transformer
+}

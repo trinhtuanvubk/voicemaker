@@ -47,3 +47,6 @@ async function reverseReverbTransformer(audioBuffer, opts) {
   
   }
   
+module.exports = {    
+    reverseReverbTransformer
+}
