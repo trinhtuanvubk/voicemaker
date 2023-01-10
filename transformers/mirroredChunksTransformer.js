@@ -65,6 +65,3 @@ async function mirroredChunksTransformer(audioBuffer, opts) {
   
   }
   
-module.exports = {
-    mirroredChunksTransformer
-}

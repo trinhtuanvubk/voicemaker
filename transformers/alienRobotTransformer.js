@@ -50,6 +50,3 @@ async function alienRobotTransformer(audioBuffer, opts) {
   
   }
   
-module.exports = {
-    alienRobotTransformer
-}

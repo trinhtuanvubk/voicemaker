@@ -89,6 +89,3 @@ async function deepScaryTransformer(audioBuffer, opts) {
   
   }
   
-module.exports = {
-    deepScaryTransformer
-}

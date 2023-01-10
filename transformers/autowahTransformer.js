@@ -56,7 +56,3 @@ async function autowahTransformer(audioBuffer, opts) {
   
   }
 
-module.exports = {
-    autowahTransformer
-}
-  

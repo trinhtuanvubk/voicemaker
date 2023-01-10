@@ -25,14 +25,11 @@
     <![endif]-->
 
    
-    <section style="background: #ffc760;display:flex;">
-      <div style="font-size: 90%; padding: 0.5rem;"><b>Some news!</b> I created this site as a small hobby project, but now I'm working on a full-featured, AI-powered, <i>real-time</i> voice changer that'll work with Discord, Zoom, and all your other apps &amp; games. If you want to be one of the first to get access during the beta, you can <a href="https://forms.gle/E9M2LYicuHcgNpuF7" target="_blank">join the waitlist</a>.</div>
-    </section>
+
 
 
     <main style="display:flex; flex-direction:column;">
       
-      <div style="text-align:center; margin:0; margin-top:1rem; text-align:center; font-size:90%; color:#9a9a9a"><a href="https://voicechanger.io" target="_blank" style="text-decoration:none; color:inherit;">voicechanger.io</a></div>
       <h1 id="header" style="text-align:center; margin:0; padding:1rem; padding-top: 1rem;"><span id="voiceName"></span>Voice Maker</h1>
       <div id="subtitle" style="text-align:center; padding-bottom: 1.5rem; padding-top: 0;">Combine audio effects to create your own unique voices!</div>
       <div id="inputOutputArea" style="display:flex; padding:0.5rem; min-height:130px;">
@@ -159,7 +156,6 @@
     </main>
       
     <br><br><br>
-    <p style="margin: 0; text-align: center; font-size: 90%; opacity: 0.5;">ADVERTISEMENT:</p>
     <div style="text-align:center;">
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <!-- voicechanger.io/voicemaker -->
@@ -1078,7 +1074,45 @@
       // });
     </script>
     
-    <p style="text-align:center;"><a href="/privacy">Privacy Policy</a></p>
 
-  </body>
+
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
 </html>

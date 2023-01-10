@@ -82,6 +82,3 @@ async function signalInterferanceTransformer(audioBuffer, opts) {
   }
   
 
-module.exports = {
-    signalInterferanceTransformer
-}

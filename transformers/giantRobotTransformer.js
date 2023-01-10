@@ -50,6 +50,3 @@ async function giantRobotTransformer(audioBuffer, opts) {
   
   }
   
-module.exports = {    
-    giantRobotTransformer
-}

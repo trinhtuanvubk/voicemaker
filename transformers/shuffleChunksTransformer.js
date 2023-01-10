@@ -75,7 +75,3 @@ async function shuffleChunksTransformer(audioBuffer, opts) {
     return outputAudioBuffer;
   
   }
-
-module.exports = {
-    shuffleChunksTransformer
-}

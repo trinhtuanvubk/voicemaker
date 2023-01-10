@@ -28,6 +28,3 @@ async function delayTransformer(audioBuffer, opts) {
   }
   
 
-module.exports = {
-    delayTransformer
-}

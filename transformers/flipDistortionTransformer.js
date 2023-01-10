@@ -65,6 +65,3 @@ async function flipDistortionTransformer(audioBuffer, opts) {
   
   }
   
-module.exports = {
-    flipDistortionTransformer
-}

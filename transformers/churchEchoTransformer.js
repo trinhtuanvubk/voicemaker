@@ -38,6 +38,3 @@ async function churchEchoTransformer(audioBuffer, opts) {
   
   }
   
-module.exports = {
-    churchEchoTransformer
-}

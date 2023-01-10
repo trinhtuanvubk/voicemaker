@@ -33,8 +33,3 @@ async function speedTransformer(audioBuffer, opts) {
     return outputAudioBuffer;
   
   }
-  
-
-module.exports = {
-    speedTransformer
-}

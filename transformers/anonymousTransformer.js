@@ -74,6 +74,3 @@ async function anonymousTransformer(audioBuffer, opts) {
   
   }
   
-module.exports = {
-    anonymousTransformer
-}

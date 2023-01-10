@@ -37,7 +37,3 @@ async function vibratoTransformer(audioBuffer, opts) {
   
   }
 
-module.exports = {
-    vibratoTransformer
-}
-  

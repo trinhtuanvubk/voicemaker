@@ -27,6 +27,3 @@ async function biquadFilterTransformer(audioBuffer, opts) {
   
   }
   
-module.exports = {
-    biquadFilterTransformer
-}

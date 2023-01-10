@@ -23,6 +23,3 @@ async function bitcrusherTransformer(audioBuffer, opts) {
   
   }
 
-module.exports = {
-    bitcrusherTransformer
-}

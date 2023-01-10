@@ -21,7 +21,5 @@ async function synthTransformer(audioBuffer, opts) {
   
   }
 
-module.exports = {
-    synthTransformer
-}
+
   

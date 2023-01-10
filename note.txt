@@ -1,3 +1,0 @@
-npm init 
-
-npm install <package> --save

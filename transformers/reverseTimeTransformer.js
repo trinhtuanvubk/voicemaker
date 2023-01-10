@@ -16,7 +16,3 @@ async function reverseTimeTransformer(audioBuffer) {
     return outputAudioBuffer;
   
   }
-  
-module.exports = {
-    reverseTimeTransformer
-}

@@ -22,6 +22,3 @@ async function moogFilterTransformer(audioBuffer, opts) {
     return await ctx.startRendering();
   
 }
-module.exports = {
-    moogFilterTransformer
-}

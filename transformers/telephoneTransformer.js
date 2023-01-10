@@ -48,6 +48,3 @@ async function telephoneTransformer(audioBuffer, opts) {
   
   }
   
-module.exports = {
-    telephoneTransformer
-}

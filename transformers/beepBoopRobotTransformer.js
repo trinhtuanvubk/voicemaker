@@ -69,6 +69,3 @@ async function beepBoopRobotTransformer(audioBuffer, opts) {
   
   }
 
-module.exports = {
-    beepBoopRobotTransformer
-}

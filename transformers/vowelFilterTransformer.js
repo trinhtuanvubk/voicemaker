@@ -151,7 +151,3 @@ async function vowelFilterTransformer(audioBuffer, opts) {
     }
   ];
   
-
-module.exports = {
-    vowelFilterTransformer
-}

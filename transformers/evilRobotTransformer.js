@@ -30,7 +30,3 @@ async function evilRobotTransformer(audioBuffer, opts) {
     return await ctx.startRendering();
   
   }
-module.exports = {
-evilRobotTransformer
-
-}

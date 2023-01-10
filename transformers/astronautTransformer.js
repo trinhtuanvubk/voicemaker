@@ -64,7 +64,3 @@ async function astronautTransformer(audioBuffer, opts) {
     return outputAudioBuffer;
   
   }
-  
-module.exports = {
-    astronautTransformer
-}

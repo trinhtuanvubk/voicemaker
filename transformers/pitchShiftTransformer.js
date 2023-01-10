@@ -22,6 +22,3 @@ async function pitchShiftTransformer(audioBuffer, opts /*negative=lower, positiv
   
   }
   
-module.exports = {
-    pitchShiftTransformer
-}

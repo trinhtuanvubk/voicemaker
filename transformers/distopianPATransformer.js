@@ -66,6 +66,3 @@ async function distopianPATransformer(audioBuffer, opts) {
   
   }
   
-module.exports = {
-    distopianPATransformer
-}

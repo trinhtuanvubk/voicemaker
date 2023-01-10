@@ -68,6 +68,3 @@ async function generalRobotTransformer(audioBuffer, opts) {
   
   }
   
-module.exports = {
-    generalRobotTransformer
-}

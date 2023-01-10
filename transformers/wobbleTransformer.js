@@ -53,7 +53,4 @@ async function wobbleTransformer(audioBuffer, opts) {
   
   }
 
-module.exports = {
-    wobbleTransformer
-}
   

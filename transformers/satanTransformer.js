@@ -110,7 +110,3 @@ async function satanTransformer(audioBuffer, opts) {
     return await ctx.startRendering();
   
   }
-  
-module.exports = {
-    satanTransformer
-}

@@ -30,6 +30,3 @@ async function wahWahTransformer(audioBuffer, opts) {
   }
   
 
-module.exports = {
-    wahWahTransformer
-}
